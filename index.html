@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+<body>
+	<h1>Random Trivia Game</h1>
+	<h3 id='instructions'>Instructions: Choose the correct answers within the allotted timeframe. Get ready!</h3>
+	<button id="start">Start</button>
+	<div id="trivia">
+		<h2 id="countdown"></h2>
+		<div id="q1">Which one is NOT a game console?</div>
+		<div id="answers">
+			<input type="radio" name="a1" value="Atari">Atari
+  			<input type="radio" name="a1" value="Megavox">Megavox
+  			<input type="radio" name="a1" value="N64">N64
+  			<input type="radio" name="a1" value="SEGA Genesis">SEGA Genesis
+		</div>
+	<br>
+		<div id="q2">What color was Yasiel Puig's mohawk at the start of the 2017 World Series?</div>
+		<div id="answers">
+			<input type="radio" name="a2" value="Red">Red
+  			<input type="radio" name="a2" value="White">White
+  			<input type="radio" name="a2" value="Blue">Blue
+  			<input type="radio" name="a2" value="Green">Green
+		</div>
+	<br>
+		<div id="q3">The Dewey Decimal system is used to categorize what?</div>
+		<div id="answers">
+			<input type="radio" name="a3" value="Toys">Toys
+  			<input type="radio" name="a3" value="Rain">Rain
+  			<input type="radio" name="a3" value="Clouds">Clouds
+  			<input type="radio" name="a3" value="Books">Books
+		</div>
+	<br>
+		<div id="q4">By what name is Norma Jean Baker more commonly known?</div>
+		<div id="answers">
+			<input type="radio" name="a4" value="Marilyn Monroe">Marilyn Monroe
+  			<input type="radio" name="a4" value="Jennifer Lawrence">Jennifer Lawrence
+  			<input type="radio" name="a4" value="Audrey Hepburn">Audrey Hepburn
+  			<input type="radio" name="a4" value="Taylor Swift">Taylor Swift
+		</div>
+	<br>
+		<div id="q5">Black-eyed peas are not peas. What are they?</div>
+		<div id="answers">
+			<input type="radio" name="a5" value="Seeds">Seeds
+  			<input type="radio" name="a5" value="White">Chickpeas 
+  			<input type="radio" name="a5" value="Beans">Beans
+  			<input type="radio" name="a5" value="Trick question: They ARE peas!">Trick question: They ARE peas!
+		</div>
+	<br><br>
+		<div id="submit">  
+			<input type="submit" value="Submit">
+		</div>
+	</div>
+	<div id="results">
+		<h2 id="rightAns"></h2>
+		<h2 id="wrongAns"></h2>
+	</div>	
+</body>
+</html>
